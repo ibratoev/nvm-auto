@@ -11,7 +11,7 @@ function nvm_auto_switch {
 
   if [ "v${NVM_RC_VERSION}" != "v${CUR_VERSION}" ]
   then
-    nvm use || nvm use default
+    nvm use 2>/dev/null || nvm use default
   fi
 }
 
