@@ -57,7 +57,7 @@ For the impatient:
 
 ```zsh
 cd ~/.oh-my-zsh/custom/plugins
-git clone https://github.com/dijitalmunky/nvm-auto.git
+git clone https://github.com/ibratoev/nvm-auto.git
 sed -e 's/^plugins=(\(.*\))/plugins=(\1 nvm-auto)/' -i .pre-nvm-auto ~/.zshrc
 echo 'nvm_auto_switch' >> ~/.zshrc
 source ~/.zshrc
